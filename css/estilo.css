@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins';
+}
+
+header {
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#logo {
+  height: 100px;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.link-menu {
+  color: #fff;
+  background-color: #555;
+  text-decoration: none;
+  margin: 15px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 600px;
+  align-items: center;
+  gap: 50px;
+}
+figure{
+  margin: 0px;
+}
+
+figure img{
+  width: 375px;
+}
+
+#sec_ctd h1{
+  text-align: right;
+  font-size: xx-large;
+}
+
+#sec_ctd p{
+  width: 400px;
+  text-align: justify;
+}
+
+#especial#sec_ctd#sinopse p {
+  width: 350px;
+  text-align: justify;
+}
+
+#second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+  gap: 50px;
+}
+
+.cartaz img{
+  width: 250px;
+}
+
+#contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+#email a{
+  font-size: small;
+  color: white;
+  text-decoration: none;
+}
+
+#social a img {
+  height: 30px;
+}
+
+.f {
+  background-color: #5b305a;
+}
+
+.l {
+  background-color: #e49756;
+}
+
+.m {
+  background-color: #e04b5a;
+}
+
+main {
+  background-color: #333;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+h1, h2 {
+  font-family: 'Amatic SC';
+}
+
+#second a{
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: #ddd;
+}
+
+#acesso {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 10px;
+  height: 150px;
+  width: 300px;
+}
+
+#acesso a {
+  font-family: 'Amatic SC';
+  font-size: x-large;
+  text-decoration: none;
+}
+
+#acesso.m{
+  display: flex;
+  align-items: center;
+}
+
+#acesso.m a img{
+  width: 40px;
+}
+
+.l {
+  color: white;
+}
+
+#descricao {
+  display: flex;
+  flex-direction: column;
+  align-items: auto;
+  border: 2px solid grey;
+  border-radius: 10px;
+  width: 600px;
+  padding: 20px;
+}
+
+#descricao h3 {
+  margin-top: 0; /* Remove top margin from the header */
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside; /* Makes the list marker inside the box */
+}
+
+ol {
+  margin-left: 20px; /* Indent ordered lists */
+}
+
+ul {
+  margin-left: 20px; /* Indent unordered lists */
+}
+
+li {
+  margin-bottom: 10px; /* Add space between list items */
+}
+
+ul li {
+  margin-bottom: 5px; /* Add less space for sub-items */
+}
